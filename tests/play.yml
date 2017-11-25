@@ -5,6 +5,7 @@
   tasks:
     - name: Test with a message
       ovh_server:
+        service: ns553569.ip-142-44-212.net
         template: foo
         hostname: bar
         ssh_key: pub
